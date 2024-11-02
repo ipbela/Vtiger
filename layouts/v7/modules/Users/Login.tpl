@@ -72,20 +72,24 @@
 		.loginDiv {
 			max-width: 380px;
 			margin: 0 auto;
-			border-radius: 4px;
+			border-radius: 20px;
 			box-shadow: 0 0 10px gray;
 			background-color: #FFFFFF;
+
 		}
 		.marketingDiv {
 			color: #303030;
                         height: 510px !important;
+			display: none;
 		}
 		.separatorDiv {
 			background-color: #7C7C7C;
 			width: 2px;
 			height: 460px;
 			margin-left: 20px;
+			display: none;
 		}
+
 		.user-logo {
 			height: 110px;
 			margin: 0 auto;
@@ -166,7 +170,19 @@
 			outline: 0;
 		}
 		.buttonBlue {
-			background-image: linear-gradient(to bottom, #35aa47 0px, #35aa47 100%)
+    			background-image: linear-gradient(to bottom, #35aa47 0px, #35aa47 100%);
+    			border: none; /* Remove a borda padrão */
+    			color: white; /* Cor do texto */
+    			padding: 10px 20px; /* Espaçamento interno */
+    			border-radius: 25px; /* Raio da borda arredondada */
+    			cursor: pointer; /* Muda o cursor ao passar o mouse */
+    			text-align: center; /* Centraliza o texto */
+    			font-size: 16px; /* Tamanho da fonte */
+    			transition: background-color 0.3s; /* Efeito de transição suave */
+		}
+ 
+		.buttonBlue:hover {
+    			background-color: #2d8b3d; /* Cor de fundo ao passar o mouse */
 		}
 		.ripples {
 			position: absolute;
@@ -208,7 +224,7 @@
 
 	<span class="app-nav"></span>
 	<div class="container-fluid loginPageContainer">
-		<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+		<div class="col-lg-50 col-md-12 col-sm-12 col-xs-12">
 			<div class="loginDiv widgetHeight">
 				<img class="img-responsive user-logo" src="layouts/v7/resources/Images/vtiger.png">
 				<div>

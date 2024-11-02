@@ -49,7 +49,7 @@ a:active {
 /************ Layout **************/
 /**********************************/
 html {
-  margin: 0;
+  margin: 10;
   padding: 0;
   overflow-y: auto;
   min-height: 100%;
@@ -7782,4 +7782,8 @@ body .fc {
 #vt-mask {
   position: relative;
   display: inline-flex;
+}
+
+.btn-default, .btn-flat-default{
+  color: red;
 }

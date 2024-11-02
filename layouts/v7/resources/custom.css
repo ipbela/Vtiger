@@ -252,13 +252,12 @@ body{
     vertical-align: middle;
 }
 .app-menu{
-    width: 100%;
     padding: 20px 0;
     color: #555;
     position: absolute;
     border: 0;
     box-shadow: 0px 5px 14px #555;
-    background: #2c3b49;
+    background: #989a91;
     overflow-y: auto;
     z-index: 10001;
 }
